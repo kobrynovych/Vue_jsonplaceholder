@@ -2,8 +2,8 @@
     <div class="app-layout">
         <Header />
 
-        <div class="app-layout__content-wrap">
-            <main class="app-layout__content">
+        <div class="app-layout__content-wrap container">
+            <main class="app-layout__content" v-for="i in 30" :key="i">
                 <slot></slot>
             </main>
 
