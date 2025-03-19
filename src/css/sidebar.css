@@ -1,5 +1,15 @@
 .sidebar {
-    width: 300px;
+    width: 0;
     border-left: 1px solid #ccc;
     box-shadow: -15px 0 15px -15px rgba(51, 51, 51, 0.5);
+    overflow: hidden;
+    opacity: 0;
+    transition: width 250ms ease-out, opacity 250ms linear;
+}
+
+@media (min-width: 701px) {
+    .sidebar {
+        width: 300px;
+        opacity: 1;
+    }
 }
