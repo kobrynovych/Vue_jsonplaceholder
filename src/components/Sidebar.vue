@@ -1,7 +1,9 @@
 <template>
     <aside class="sidebar">
-        <div v-for="i in 50" :key="i">
-            <div>{{ i }}</div>            
-        </div>
+        <NavBar class="sidebar--column" />
     </aside>
 </template>
+
+<script setup>
+import NavBar from './NavBar.vue';
+</script>

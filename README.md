@@ -39,4 +39,7 @@ This is a simple Vue app using public <a href="https://jsonplaceholder.typicode.
 
 ## Technologies
 * Vue 
+* Vue-router 
+* Pinia 
 * JsonPlaceholder 
+* gh-pages 
