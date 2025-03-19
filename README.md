@@ -1,29 +1,42 @@
 # Vue_jsonplaceholder
 
-This template should help get you started developing with Vue 3 in Vite.
+<a href="https://kobrynovych.github.io/Vue_jsonplaceholder" target="_blank">See Demo</a>
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Table of contents
+* [Instructions](#Instructions)
+* [Description](#Description)
+* [Technologies](#Technologies)
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Instructions
 
-## Project Setup
-
-```sh
-npm install
+First clone this repository.
+```bash
+$ git clone https://github.com/kobrynovych/Vue_jsonplaceholder.git
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+Install dependencies. Make sure you already have <a href="https://nodejs.org/en/" target="_blank">nodejs</a> & <a href="https://www.npmjs.com/" target="_blank">npm</a> installed in your system.
+```bash
+$ npm install # or yarn
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+Run it
+```bash
+$ npm run dev # or yarn dev
 ```
+
+
+Run deploy
+```bash
+$ bash deploy.sh
+```
+
+
+## Description
+This is a simple Vue app using public <a href="https://jsonplaceholder.typicode.com/users" target="_blank">JsonPlaceholder API</a>
+
+
+## Technologies
+* Vue 
+* JsonPlaceholder 
