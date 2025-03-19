@@ -1,27 +1,27 @@
 .user-card {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 15px;
+    border: 1px solid var(--color-dark-200);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
     margin-bottom: 10px;
 }
 
 .user-card__details-button {
-    color: #fff;
-    background-color: #e8178a;
+    color: var(--color-text);
+    background-color: var(--color-secondary-200);
     border: none;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     padding: 5px 10px;
     margin-top: 10px;
 }
 
 .user-card__details-button:hover {
-    background-color: #ff008c;
+    background-color: var(--color-secondary-100);
 }
 
 .user-card__user-details {
     background-color: #f9f9f9;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     padding: 10px;
     margin-top: 10px;
 }

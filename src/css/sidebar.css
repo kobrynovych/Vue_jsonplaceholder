@@ -4,12 +4,18 @@
     box-shadow: -15px 0 15px -15px rgba(51, 51, 51, 0.5);
     overflow: hidden;
     opacity: 0;
-    transition: width 250ms ease-out, opacity 250ms linear;
+    padding: 0;
+    transition: width 250ms ease-out, padding 250ms ease-out, opacity 250ms linear;
+}
+
+.sidebar--column {
+    flex-direction: column;
 }
 
 @media (min-width: 701px) {
     .sidebar {
         width: 300px;
+        padding: var(--padding);
         opacity: 1;
     }
 }

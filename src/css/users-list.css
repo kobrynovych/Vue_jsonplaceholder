@@ -1,16 +1,16 @@
 .users-list {
-    padding: 15px;
+    padding: var(--padding);
 }
   
 .users-list__loading {
     text-align: center;
-    padding: 15px;
+    padding: var(--padding);
 }
 
 .users-list__error {
     color: #dc3545;
     text-align: center;
-    padding: 15px;
+    padding: var(--padding);
 }
 
 .users-list__items {

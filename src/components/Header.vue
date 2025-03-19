@@ -5,12 +5,15 @@
             'header-hidden': isHeaderHidden,
         }"
     >
-        header
+        <router-link to="/" class="header__link">Header</router-link>
+
+        <NavBar />
     </header>
 </template>
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import NavBar from './NavBar.vue'
 
 const isHeaderHidden = ref(false)
 const lastScrollTop = ref(0)

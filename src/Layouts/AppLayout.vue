@@ -4,7 +4,7 @@
 
         <div class="app-layout__content-wrap container">
             <main class="app-layout__content">
-                <slot></slot>
+                <router-view></router-view>
             </main>
 
             <Sidebar />
