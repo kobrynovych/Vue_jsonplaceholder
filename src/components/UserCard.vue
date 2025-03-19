@@ -16,10 +16,12 @@
         >
             <div 
                 v-if="isShowDetails" 
-                class="user-card__user-details"
+                class="user-card__user-details-container"
             >
-                <p><b>Email:</b> {{ user.email }}</p>
-                <p><b>Phone:</b> {{ user.phone }}</p>
+                <div class="user-card__user-details">
+                    <p><b>Email:</b> {{ user.email }}</p>
+                    <p><b>Phone:</b> {{ user.phone }}</p>
+                </div>
             </div>
         </Transition>
     </li>

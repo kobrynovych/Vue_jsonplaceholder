@@ -48,9 +48,9 @@
             {{ store.usersError }}
         </div>
 
-        <ul v-else class="users-list__items">
+        <transition-group v-else name="users" tag="ul" class="users-list__items">
             <UserCard v-for="user in filteredAndSortedUsers" :key="user.id" :user="user" />
-        </ul>
+        </transition-group>
 
         <div 
             v-if="!store.loading && !store.usersError && filteredAndSortedUsers.length === 0" 

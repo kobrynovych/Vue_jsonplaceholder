@@ -62,3 +62,20 @@
     border-radius: 8px;
     padding: 40px;
 }
+
+/* Animation styles */
+.users-move,
+.users-enter-active,
+.users-leave-active {
+    transition: all 0.5s ease;
+}
+
+.users-enter-from,
+.users-leave-to {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.users-leave-active {
+    position: absolute;
+}

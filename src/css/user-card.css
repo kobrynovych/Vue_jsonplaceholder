@@ -25,9 +25,12 @@
     background-color: var(--color-secondary-100);
 }
 
-.user-card__user-details {
+.user-card__user-details-container {
     background-color: #f9f9f9;
     border-radius: var(--border-radius);
+}
+
+.user-card__user-details {
     padding: 10px;
     margin-top: 10px;
 }
