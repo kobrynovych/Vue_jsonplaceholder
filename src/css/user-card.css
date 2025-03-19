@@ -3,6 +3,12 @@
     border-radius: var(--border-radius);
     padding: var(--padding);
     margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+    transform: translateY(-2px);
 }
 
 .user-card__details-button {
