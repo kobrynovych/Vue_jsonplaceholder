@@ -1,11 +1,10 @@
 <template>
     <AppLayout>
-        <div v-for="i in 40" :key="i">
-            <div>{{ i }}</div>            
-        </div>
+        <UsersList />
     </AppLayout>
 </template>
 
 <script setup>
 import AppLayout from './Layouts/AppLayout.vue'
+import UsersList from './components/UsersList.vue'
 </script>

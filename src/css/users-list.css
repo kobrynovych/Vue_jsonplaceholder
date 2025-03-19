@@ -1,0 +1,19 @@
+.users-list {
+    padding: 15px;
+}
+  
+.users-list__loading {
+    text-align: center;
+    padding: 15px;
+}
+
+.users-list__error {
+    color: #dc3545;
+    text-align: center;
+    padding: 15px;
+}
+
+.users-list__items {
+    list-style: none;
+    padding: 0;
+}
