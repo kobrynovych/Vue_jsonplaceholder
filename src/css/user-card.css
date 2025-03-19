@@ -25,3 +25,21 @@
     padding: 10px;
     margin-top: 10px;
 }
+
+/* Animation styles */
+.slide-enter-active,
+.slide-leave-active {
+    transition: height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+    height: 0;
+    opacity: 0;
+}
+
+.slide-enter-to,
+.slide-leave-from {
+    opacity: 1;
+}

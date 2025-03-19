@@ -9,13 +9,19 @@
             {{ isShowDetails ? 'Hide Details' : 'Show Details' }}
         </button>
 
-        <div 
-            v-if="isShowDetails" 
-            class="user-card__user-details"
+        <Transition
+            name="slide"
+            @enter="el => el.style.height = el.scrollHeight + 'px'"
+            @leave="el => el.style.height = '0'"
         >
-            <p><b>Email:</b> {{ user.email }}</p>
-            <p><b>Phone:</b> {{ user.phone }}</p>
-        </div>
+            <div 
+                v-if="isShowDetails" 
+                class="user-card__user-details"
+            >
+                <p><b>Email:</b> {{ user.email }}</p>
+                <p><b>Phone:</b> {{ user.phone }}</p>
+            </div>
+        </Transition>
     </li>
 </template>
 
