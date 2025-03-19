@@ -1,6 +1,8 @@
 <template>
     <AppLayout>
-        test
+        <div v-for="i in 40" :key="i">
+            <div>{{ i }}</div>            
+        </div>
     </AppLayout>
 </template>
 

@@ -3,7 +3,7 @@
         <Header />
 
         <div class="app-layout__content-wrap container">
-            <main class="app-layout__content" v-for="i in 30" :key="i">
+            <main class="app-layout__content">
                 <slot></slot>
             </main>
 

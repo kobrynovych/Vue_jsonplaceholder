@@ -3,9 +3,12 @@
 }
 
 .app-layout__content-wrap {
+    display: flex;
+    align-items: stretch; 
+    min-height: calc(100vh - 50px);
     padding-top: 50px;
 }
 
 .app-layout__content {
-
+    flex: 1; 
 }
