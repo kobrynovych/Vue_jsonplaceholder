@@ -5,8 +5,9 @@
 .app-layout__content-wrap {
     display: flex;
     align-items: stretch; 
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px - 50px);
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .app-layout__content {
